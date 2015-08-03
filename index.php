@@ -10,10 +10,10 @@
 		<meta charset="utf-8" />
 		<link href="style.css" rel="stylesheet" type="text/css">
 		<title>Тест формы</title>
-		
+
 	</head>
 	<body>
-	
+
 		<div id="page_allign" class="b3radius">
 			<div class="form_block">    <!-- Блок для формы-->
 				<header>
@@ -45,7 +45,7 @@
                         <a href="#">...</a></li> <li>
                         <a href="#">Последняя</a></li></ul></div>
 		</div>
-	 
+
 	</body>
-	
+
 </html>
