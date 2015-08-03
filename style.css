@@ -1,0 +1,141 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+body{
+	background: #eaeaea;
+	font: 12px Arial, Tahoma, sans-serif;
+}
+header{
+	border-bottom: 1px solid #faf6f6;
+	padding: 5px;
+}
+h1{
+	font-size: 18px;
+	color: #404040;
+	padding-top: 9px;
+	padding-left: 18px;
+}
+h2{
+	font-size: 16px;
+	color: #404040;
+	padding-top: 10px;
+	padding-left: 18px;
+
+}
+h3{
+	font-size: 15px;
+	color: #404040;
+	margin: 10px 0px 20px 5px;
+
+}
+#page_allign {
+	width: 1000px;
+	margin: 35px auto;
+	background-color:  #fff;
+	box-shadow: 0px 1px 3px #DDDDDD;
+	-wevkit-box-shadow: 0px 1px 3px #DDDDDD;
+	-o-box-shadow: 0px 1px 3px #DDDDDD;
+	-moz-box-shadow: 0px 1px 3px #DDDDDD;
+	overflow: hidden;
+}
+input[name=namec]{
+	margin: 7px 0;
+	
+	height: 25px;
+	border: none;
+	box-shadow: inset 0px 1px 3px rgba(0,0,0,.1);
+	background: #f0f0f0;
+	padding: 0 5px;
+	width: 600px;
+
+}
+textarea[name=text_content]{
+	margin: 7px 0;
+	position: relative;
+	padding: 0 5px;
+}
+input[name=reg]{
+	
+	
+	position: relative;
+	left: 19px;
+	top: -124px;
+}
+input[name=uploadfile]{
+	
+	margin-left: 200px;
+	position: relative;
+	left: 260px;
+	top: -156px;
+}
+
+
+.form_block{
+	padding-left: 15px;
+	width: 601px;
+
+}
+p.error_check{
+color: red;
+font-size: 18px;
+margin: 15px;
+
+}
+.news_write{
+
+	padding: 10px 10px;
+
+}
+.new_text{
+	min-height: 150px;
+	font-size: 14px;
+	padding-left: 20px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #DDDDDD;
+}
+.new_text>p{
+	margin-top: 8px;
+
+}
+
+.new_text>div>p>img{
+	float: left;
+	margin: 2px 8px 8px 3px;
+	border: 1px solid #DDDDDD;
+	height: 100px;
+	width: 100px;
+}
+.new_text>.date_public{
+	/*position: relative;
+	top: 12px;
+	right: -640px;*/
+	float: right;
+	display: block;
+	margin: 10px 4px 5px 0px;
+	color: #727AC3;
+	font-size: 12px;
+}
+.news_write>.new_text:last-child{
+	border-bottom: none;
+}
+.news_footer{
+
+	margin: 10px 30% 10px 30%;
+	border-top: 1px solid #eaeaea;
+	padding-top: 7px;
+}
+.news_footer>ul{
+	type: none;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+.news_footer>ul>li{
+	padding-right: 5px;
+	font-size: 16px;
+	display: inline;
+}
+.news_footer>ul>li:last-child{
+	padding-left: 3px;
+}
