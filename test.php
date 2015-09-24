@@ -13,3 +13,16 @@ echo $img_arr1["image/bmp"];
 echo $img_arr1["image/jpg"];
 
 ?>
+
+
+
+
+
+(
+($_FILES['uploadfile']['type'] == "image/jpeg") ||
+($_FILES['uploadfile']['type'] == "image/png") ||
+($_FILES['uploadfile']['type'] == "image/gif") ||
+($_FILES['uploadfile']['type'] == "image/bmp") ||
+($_FILES['uploadfile']['type'] == "image/jpg")
+
+) {	// массив расширений для картинки
